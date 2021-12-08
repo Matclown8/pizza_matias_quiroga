@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Pizza_matias_quiroga">
         <activity
+            android:name=".Arma_pizza_act"
+            android:exported="true" />
+        <activity
+            android:name=".Listado_act"
+            android:exported="true" />
+        <activity
+            android:name=".Gestion_act"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
