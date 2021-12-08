@@ -5,16 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_background"
-    tools:context=".Listado_act">
+    tools:context=".listado_pact">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="343dp"
-        android:layout_height="625dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="332dp"
+        android:layout_height="586dp"
         app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -22,18 +24,20 @@
 
             <ListView
                 android:id="@+id/lv"
-                android:layout_width="272dp"
-                android:layout_height="346dp"
-                android:layout_marginTop="36dp"
+                android:layout_width="267dp"
+                android:layout_height="296dp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.189" />
 
             <Button
                 android:id="@+id/button5"
-                android:layout_width="308dp"
-                android:layout_height="48dp"
+                android:layout_width="309dp"
+                android:layout_height="51dp"
                 android:backgroundTint="@android:color/holo_red_light"
+                android:onClick="eliminarpedido"
                 android:text="Eliminar Pizza"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

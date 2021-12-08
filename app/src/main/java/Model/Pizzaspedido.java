@@ -1,13 +1,13 @@
 package Model;
 
-public class Pizzas_pedido {
+public class Pizzaspedido {
 
     private String id;
     private String nombre;
     private String precio;
     private String localizacion;
 
-    public Pizzas_pedido(){
+    public Pizzaspedido(){
 
     }
 

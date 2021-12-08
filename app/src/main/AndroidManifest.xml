@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Pizza_matias_quiroga">
         <activity
+            android:name=".gestion_act"
+            android:exported="true" />
+        <activity
+            android:name=".listado_pact"
+            android:exported="true" />
+        <activity
             android:name=".Arma_pizza_act"
             android:exported="true" />
         <activity

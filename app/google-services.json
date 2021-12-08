@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "501323264310",
+    "project_id": "pizzafire-859c6",
+    "storage_bucket": "pizzafire-859c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501323264310:android:f6e23b3cc883372baa0397",
+        "android_client_info": {
+          "package_name": "com.example.pizza_matias_quiroga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501323264310-650lqiph1ko2atlhpg72gnq0nl904k00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-W1T54ChuYJZKVblenAvbRvbQ1GWzBjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501323264310-650lqiph1ko2atlhpg72gnq0nl904k00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

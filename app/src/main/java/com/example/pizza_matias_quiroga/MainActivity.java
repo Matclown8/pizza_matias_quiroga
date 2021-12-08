@@ -17,13 +17,13 @@ public class MainActivity extends AppCompatActivity {
     }
     public void Gestion(View view)
     {
-        Intent i = new Intent(this, Gestion_act.class);
+        Intent i = new Intent(this, gestion_act.class);
         startActivity(i);
 
     }
     public void Listado(View view)
     {
-        Intent i = new Intent(this, Listado_act.class);
+        Intent i = new Intent(this, listado_pact.class);
         startActivity(i);
 
     }
